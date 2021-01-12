@@ -1,0 +1,73 @@
+About: how to use program
+- This text was used in English to share through the GitHub.
+- This document is about how to use the application. 
+  If you want to modify, supplement, or upgrade the program, please refer to README.
+- Leave the source if you are sharing or publishing this program. (https://github.com/KwanghyeonJeong)
+
+made by KwanghyeonJeong
+Network:
+e-mail - jkhpro1003@gmail.com
+git-hub - github.com/KwanghyeonJeong
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+(CAUTION) 
+The producer of this program is Korean. 
+Therefore, most of the comments are written in Korean. Please be careful when modifying the program.
+
+(WARNING)
+The program used visual studio 2015(ver.community)
+Upload only source files and executables because of their large capacity. 
+If you want to modify or upgrade in Visual Studio, please make it in the MFC environment. 
+If you use code to create your own, the dialog box can be transformed to suit your preferences.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+how to modify this program?
+
+If you want to modify the program, you can open the .sln file and use it.
+You can open and use the .exe file.
+It also exists in the uppermost position and also in COVID19_Simulator/x64/Debug/.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+how to use?
+
+When you open the .exe file, there is a toolbar.
+Ignore the parts in Korean and use "MENU".
+
+There are 3 choices in total.
+1. Simulation_init
+2. Simulator
+3. Result
+
+1. Simulation_init:
+Click to display a new dialog box.
+"Quarantine stage"
+Sets the social distance.
+
+Strong social distance: 10% chance of infection when an infected person comes into contact with a non-infected person.
+Relaxed social disease: 30% chance of infection when an infected person comes into contact with a non-infected person.
+Distance in life: 50% chance of infection when an infected person comes into contact with a non-infected person.
+Everyday life: 90% chance to be infected when an infected person comes into contact with a non-infected person.
+
+Social Population: Set the social distance level and specify the total number of people and the number of infections.
+Input range is from 2 to 1000.
+"COVID19 negative" (blue) "COVID19 positive" (red) "recovery" (green). Recovery does not appear at this stage.
+Number of infected: Specifies the number of first infections during the simulation run. Input range is from 1 to 999.
+When you're done, press the check button.
+
+2. Simulator:
+In this step, you will proceed with the simulation. 
+When infected with the virus, it appears red, and when it recovers, it appears green. 
+The infected person will recover after a special process in the internal code. 
+Once this simulator is recovered, it will not be infected again.
+
+The simulation is terminated in the following cases:
+case 1. If all people are infected
+case 2. If infection no longer progresses
+case 3. If 30 seconds have passed since the simulation run
+You will exit.
+
+You can change it to re-infection if you want, or you can change the termination condition.
+Please refer to README.md for this part.
+
+3. Result:
+Click this menu to exit the simulation at the point of click and show the results. The shortcut is "ctrl + x".
+The results indicate the simulation run time, infection rate, recovery rate, and infection rate by generation. 
+Generation selection is randomly selected in the init phase.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
