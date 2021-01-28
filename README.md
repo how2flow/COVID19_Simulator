@@ -173,3 +173,6 @@ For more information on these two topics, see the Redistribution of Visual C++ A
 
 ***
 **If you think the program is good, please recommend and share it. It is also good for basic and educational purposes of MFC.**
+
+#### contact:
+  e-mail:<jkhpro1003@gmail.com>
