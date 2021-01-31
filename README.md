@@ -4,7 +4,7 @@
 ## About Program
 **Be sure to read it.**
 
-This program is based on the coronavirus that hit the world in 2020.
+This program is based on the coronavirus that hit the world in 2020-2021
 
 It's a demo version that allows you to easily see how far the virus spreads, depending on the social distancing stage.
 
