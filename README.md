@@ -1,4 +1,4 @@
-# COVID19_Simulator
+# COVID-19_simulator
 
 ***
 ## About Program
