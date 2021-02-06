@@ -1,4 +1,4 @@
-# COVID-19_simulator
+# COVID19_Simulator
 project name: COVID19_Simulator
 
 ***
